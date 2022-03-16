@@ -1,0 +1,100 @@
+body{
+    font-family:'Montserrat', sans-serif;
+    background-color: aquamarine;
+    
+}
+
+h5{
+    line-height:50px;
+}
+
+header {
+    width:100Vw;
+    height:60px;
+    background-color:white;
+}
+
+main{
+    padding: 2rem;
+    margin: top 3rem;
+    height:calc(100vh - 120px);
+}
+
+footer{
+    width:100Vw;
+    height:60px;
+    background-color:white;
+    position:fixed;
+}
+
+footer span{
+    color:red;
+}
+
+div#grid {
+    margin:0 auto;
+    width:400px;
+    height:400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+div#grid .single-box{
+    border:1px solid black;
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    cursor: crosshair;
+}
+
+div#grid .single-box.clicked {
+    background-color: cornflowerblue;
+    color:white;
+}
+
+div#grid .single-box.clicked-bomb{
+    background-color: red;
+    color:white;
+}
+
+.mines {
+    background-color: red;
+    color:white;
+}
+
+.small-text{
+    font-size:0.8rem;
+    line-height:60px;
+}
+
+#play-btn{
+    padding:0;
+    font-size:.8rem;
+}
+
+#main-logo{
+    width:35px;
+    height:35px;
+}
+
+#game-level{
+    font-size:.8rem;
+}
+
+.clearfix {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.relative{
+    position:relative;
+}
+
+.float-right{
+    float:right;
+}
