@@ -33,6 +33,8 @@ function startNewGame(){
                 boxNumber = 49;
                 break;
         }
+
+        
         
         for (let i = 1 ; i <= boxNumber ; i++){
             let theGrid = document.querySelector('#grid');
